@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import styled, { keyframes } from 'styled-components'
-import {Container} from '../common'
+import {Container, Button} from '../common'
 
 const Title = styled.h1`
 	font-size: 4rem;
 	margin:0;
 	color:#272727;
+	@media (max-width:700px) {
+		font-size: 3rem;
+	}
 	`
 const fadeIn = keyframes`
 	0% {
@@ -35,6 +38,9 @@ const Quotebox = styled.div`
 	height: 200px;
 	padding: 30px 40px;
 	margin:3rem auto;
+	@media (max-width:700px) {
+		font-size: 1rem;
+	}
 `
 const Quip = styled.div`
 	width: 80%;
@@ -65,9 +71,14 @@ const LinkBox = styled(Quip)`
 		}
 `
 export default class Home extends Component {
+	
+	Redirect(){
+		window.location("https://retrainingthebrain.com/")
+	}
 	render() {
+		console.log(this.props)
 		return (
-			<Container>
+			<Container style={{marginBottom:'3rem'}}>
 				<Title>Dynamic Neural Retraining System</Title>
 					<TaglineContainer>
 						<span>muokkaa aivojasi </span>
@@ -96,9 +107,9 @@ export default class Home extends Component {
 							<p>Materiaalin voi tilata ja kursseille voi ilmoittautua alle olevasta linkistä. Linkki ohjaa DNRS:n englanninkieliselle sivustolle.
 							Suomenkielinen tilauspalvelu julkaistaan pian.</p>
 					</Quip>
-					<LinkBox>
-						<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none'}}>TILAA</a></h1>
-						</LinkBox>
+					<LinkBox onClick={this.Redirect}>
+					<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none'}}>TILAA</a></h1>
+					</LinkBox>
 					<Quotebox>
 						<i>"DNRS-harjoitusten ansiosta olen palannut normaalin elämääni"</i>
 						<p>-DNRS:n avulla toipunut</p>

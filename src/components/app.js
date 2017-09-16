@@ -7,6 +7,7 @@ import About from './about';
 import Services from './services'
 import Contact from './contact'
 import Success from './success'
+import Footer from './footer'
 
 
 export default class App extends Component {
@@ -18,12 +19,13 @@ export default class App extends Component {
 		return (
 			<Router>
 				<div>
-				<Route path="/" component={Header}/>
+				<Header />
 				<Route exact path="/" component={Home}/>
 				<Route path="/about/"  component={About} />
 				<Route path="/services/"  component={Services} />
 				<Route path="/contact/" component={Contact} />
 				<Route path="/success/" component={Success} />
+				<Footer />
 				</div>
 			</Router>
 		);
