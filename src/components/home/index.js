@@ -73,7 +73,7 @@ const LinkBox = styled(Quip)`
 export default class Home extends Component {
 	
 	Redirect(){
-		window.location("https://retrainingthebrain.com/")
+		window.location = "https://retrainingthebrain.com/"
 	}
 	render() {
 		console.log(this.props)
