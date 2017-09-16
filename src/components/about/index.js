@@ -5,10 +5,12 @@ import styled from 'styled-components'
 const InfoBox = styled.div`
 width: 80%;
 margin:auto;
+color:#333;
 margin-top: 4rem;
 font-size: 1rem;
 padding: 0px 20px;
 text-align: justify;
+font-weight:100;
 border-left: 1px solid gray;
 border-right: 1px solid gray;
 @media (max-width:700px) {
@@ -25,10 +27,9 @@ export default class About extends Component {
 			<Container>
 				<h1>TIETOA MENETELMÄSTÄ</h1>
 				<InfoBox>
-					<p>
-					Minkälaisia DNRS-harjoitukset ovat?
+					<p><b style={{fontWeight:"600",color:'#000'}}>Minkälaisia DNRS-harjoitukset ovat?</b></p>
 
-					Aivojen muokkaaminen vaatii sinulta sekä aikaa että omistautumista. DVD-materiaali on 14 tunnin
+					<p>Aivojen muokkaaminen vaatii sinulta sekä aikaa että omistautumista. DVD-materiaali on 14 tunnin
 					laajuinen ja se suositellaan käytäväksi läpi neljässä päivässä. Kurssit kestävät viisi päivää.
 					Kun olet käynyt läpi materiaalin, sinun tulee harjoitella vähintään tunti päivässä ainakin seuraavat kuusi
 					kuukautta. Näin harjoittelun avulla syntyneiden uusien, toimivien hermoyhteyksien on mahdollista
@@ -45,7 +46,7 @@ export default class About extends Component {
 					kognitiivista uudelleenarviointia, tunneperäistä etäännyttämistä, tunteiden sääntelyä sekä kokemusperäistä ja asteittain etenevää altistamista koettuun uhkaan.
 
 
-					<p><span><b>Kuinka nopeasti harjoittelu tehoaa?</b></span><br /></p>
+					<p><span><b style={{fontWeight:"600",color:'#000'}}>Kuinka nopeasti harjoittelu tehoaa?</b></span><br /></p>
 
 					Aivojen tervehtyminen on henkilökohtaista. Jotkut saattavat huomata oireiden heikentyvän ja terveyden
 					kohenevan verrattain lyhyenkin ajan sisällä, mutta ei ole tavatonta, että koetut muutokset ovat

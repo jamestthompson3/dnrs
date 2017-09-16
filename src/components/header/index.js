@@ -11,6 +11,7 @@ const header = styled.div`
 	padding: 0;
 	background: transparent;
 	z-index: 50;
+	font-family: 'Questrial', sans-serif;
 `
 const NavContainer = styled.nav`
 	float: right;

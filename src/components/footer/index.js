@@ -7,8 +7,11 @@ const FooterBox = styled.div`
 	width:100%;
 	border-top: 1px solid gray;
 	padding:10px;
+	color:gray;
+	opacity:0.7;
 	position: relative;
 	top:100%;
+	font-family: 'Questrial', sans-serif;
 `
 
 const Footer = ()=> {
