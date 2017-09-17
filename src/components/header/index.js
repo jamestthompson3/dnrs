@@ -23,6 +23,7 @@ const NavContainer = styled.nav`
 		display: inline-block;
 		height: 56px;
 		line-height: 56px;
+		font-size:1.25rem;
 		padding: 0 15px;
 		min-width: 50px;
 		text-align: center;
