@@ -81,44 +81,45 @@ export default class Home extends Component {
 	render() {
 		console.log(this.props)
 		return (
-<div><Container style={{marginBottom:'3rem'}}>
-		<Title>Dynamic Neural Retraining System</Title>
-			<TaglineContainer>
-				<span>muokkaa aivojasi </span>
-				<br />
-				<span style={{animationDelay:'1s'}}>tervehdy </span>
-				<br />
-				<span style={{animationDelay:'2s'}}>ota elämä haltuun.</span>
-			</TaglineContainer>
-			<Quip>
-				<p>Dynamic Neural Retraining System™ on harjoitteluun perustuva, lääkkeetön,
-					neuroplastisuutta hyödyntävä kognitiivinen menetelmä, jonka avulla voi olla mahdollista toipua monista traumaperäisistä oireista.</p>
-				<p><span><b>DNRS:n toimintatavat</b></span><br />
-					DNRS-harjoitteet pohjautuvat neuroplastiseen terapiaan, jonka avulla limbinen järjestelmä muokkautuu ja hermoverkkoihin syntyy aiempaa toimivampia yhteyksiä.
-	
-					Trauman aiheuttama hermoverkkojen häiriötila voi saada limbisen järjestelmän suojelumekanismit
-					toimimaan virheellisesti ja normaalia herkemmin. Seurauksena on voimistunut stressivaste, joka voi
-					vaikuttaa moniin aivojen ja kehon järjestelmiin ja erityisesti niihin, jotka ovat yhteydessä tunteisiin,
-					aistihavainnointiin ja kognitiivisiin toimintoihin.
-	
-				 	 Menetelmässä on kyse paljon muustakin kuin
-					vain suhtautumistavan tai ajatusmallien muuttamisesta. Intensiivisen harjoittelun tuloksena aivoihin syntyy rakenteellisia
-					ja toiminnallisia muutoksia. Olemme mukana tutkimusprojektissa, jonka tavoitteena on konkretisoida syntyviä muutoksia aivokuvannuksen avulla.
-					</p>
-					<br />
-					
-					<p>Materiaalin voi tilata ja kursseille voi ilmoittautua alle olevasta linkistä. Linkki ohjaa DNRS:n englanninkieliselle sivustolle.
-					Suomenkielinen tilauspalvelu julkaistaan pian.</p>
-			</Quip>
-			<LinkBox onClick={this.Redirect}>
-			<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none'}}>TILAA</a></h1>
-			</LinkBox>
-	</Container>
+			<div style={{marginTop:'-3rem'}}>
+				<Container style={{marginBottom:'3rem'}}>
+					<Title>Dynamic Neural Retraining System</Title>
+					<TaglineContainer>
+						<span>muokkaa aivojasi </span>
+						<br />
+						<span style={{animationDelay:'1s'}}>tervehdy </span>
+						<br />
+						<span style={{animationDelay:'2s'}}>ota elämä haltuun.</span>
+					</TaglineContainer>
+					<Quip>
+						<p>Dynamic Neural Retraining System™ on harjoitteluun perustuva, lääkkeetön,
+							neuroplastisuutta hyödyntävä kognitiivinen menetelmä, jonka avulla voi olla mahdollista toipua monista traumaperäisistä oireista.</p>
+						<p><span><b>DNRS:n toimintatavat</b></span><br />
+							DNRS-harjoitteet pohjautuvat neuroplastiseen terapiaan, jonka avulla limbinen järjestelmä muokkautuu ja hermoverkkoihin syntyy aiempaa toimivampia yhteyksiä.
+			
+							Trauman aiheuttama hermoverkkojen häiriötila voi saada limbisen järjestelmän suojelumekanismit
+							toimimaan virheellisesti ja normaalia herkemmin. Seurauksena on voimistunut stressivaste, joka voi
+							vaikuttaa moniin aivojen ja kehon järjestelmiin ja erityisesti niihin, jotka ovat yhteydessä tunteisiin,
+							aistihavainnointiin ja kognitiivisiin toimintoihin.
+			
+						 	 Menetelmässä on kyse paljon muustakin kuin
+							vain suhtautumistavan tai ajatusmallien muuttamisesta. Intensiivisen harjoittelun tuloksena aivoihin syntyy rakenteellisia
+							ja toiminnallisia muutoksia. Olemme mukana tutkimusprojektissa, jonka tavoitteena on konkretisoida syntyviä muutoksia aivokuvannuksen avulla.
+							</p>
+							<br />
+							
+							<p>Materiaalin voi tilata ja kursseille voi ilmoittautua alle olevasta linkistä. Linkki ohjaa DNRS:n englanninkieliselle sivustolle.
+							Suomenkielinen tilauspalvelu julkaistaan pian.</p>
+					</Quip>
+					<LinkBox onClick={this.Redirect}>
+					<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none'}}>TILAA</a></h1>
+					</LinkBox>
+		</Container>
 		<Quotebox>
-				<i>"DNRS-harjoitusten ansiosta olen palannut normaalin elämääni"</i>
-				<p>-DNRS:n avulla toipunut</p>
+			<i>"DNRS-harjoitusten ansiosta olen palannut normaalin elämääni"</i>
+			<p>-DNRS:n avulla toipunut</p>
 			</Quotebox>
-		</div>
+	</div>
 			)
 	}
 }

@@ -100,6 +100,7 @@ export default class Header extends Component {
 		const { visible } = this.state
 		return (
 			<header>
+				<img style={{width:'20%',marginTop:'0.75rem',marginLeft:'1rem'}} src="https://retrainingthebrain.com/wp-content/uploads/2015/10/logo-dnrs.png" />
 				<NavContainer>
 					<Link to="/">koti</Link>//
 					<Link to="/about">tietoa</Link>
