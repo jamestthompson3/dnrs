@@ -95,7 +95,10 @@ export default class Home extends Component {
 						
 						<p>Dynamic Neural Retraining System&trade; on lääkkeetön, aivojen muokkautuvuutta hyödyntävä harjoitusmenetelmä, jonka avulla voi olla mahdollista saada apua oireisiin ja toipua monista toiminnallisista häiriöistä ja sairauksista, joiden taustalla voidaan olettaa olevan aivojen limbisen järjestelmän virheellinen toiminta. Niitä ovat esimerkiksi monikemikaaliherkkyys, fibromyalgia, krooninen väsymysoireyhtymä, sähköherkkyys, ruokayliherkkyydet, sisäilmasairaudet ja krooninen kipu.
 						</p>
-						//add another TILAA button here
+						
+						<LinkBox onClick={this.Redirect}>
+							<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none',color:'white'}}>TILAA</a></h1>
+						</LinkBox>
 
 						<p align="center"><span align="center"><b>Perustietoa DNRS:stä</b></span><br/>
 							Monet eri tekijät, kuten esimerkiksi virukset, fyysiset vammat, emotionaalinen stressi tai altistuminen
@@ -111,7 +114,7 @@ export default class Home extends Component {
 							<p>Opetusmateriaalin voi tilata ja kursseille ilmoittautua alle olevasta linkistä. Linkki ohjaa DNRS:n englanninkieliselle sivustolle. Materiaalipaketti 1 on saatavana kokonaan suomeksi. </p>
 					</Quip>
 					<LinkBox onClick={this.Redirect}>
-					<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none'}}>TILAA</a></h1>
+					<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none',color:'white'}}>TILAA</a></h1>
 					</LinkBox>
 		</Container>
 		<Quotebox>
