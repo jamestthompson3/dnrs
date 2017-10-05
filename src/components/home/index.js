@@ -96,11 +96,11 @@ export default class Home extends Component {
 						<p>Dynamic Neural Retraining System&trade; on lääkkeetön, aivojen muokkautuvuutta hyödyntävä harjoitusmenetelmä, jonka avulla voi olla mahdollista saada apua oireisiin ja toipua monista toiminnallisista häiriöistä ja sairauksista, joiden taustalla voidaan olettaa olevan aivojen limbisen järjestelmän virheellinen toiminta. Niitä ovat esimerkiksi monikemikaaliherkkyys, fibromyalgia, krooninen väsymysoireyhtymä, sähköherkkyys, ruokayliherkkyydet, sisäilmasairaudet ja krooninen kipu.
 						</p>
 						
-						<LinkBox onClick={this.Redirect}>
+						<LinkBox style={{width:'100%'}} onClick={this.Redirect}>
 							<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none',color:'white'}}>TILAA</a></h1>
 						</LinkBox>
 
-						<p align="center"><span align="center"><b>Perustietoa DNRS:stä</b></span><br/>
+						<p><span><b>Perustietoa DNRS:stä</b></span><br/>
 							Monet eri tekijät, kuten esimerkiksi virukset, fyysiset vammat, emotionaalinen stressi tai altistuminen
 							Monet eri tekijät, kuten esimerkiksi virukset, fyysiset vammat, emotionaalinen stressi tai altistuminen homeelle tai kemikaaleille voivat aiheuttaa aivojen limbisen järjestelmän häiriötilan. Tuolloin limbisen järjestelmän suojelumekanismit alkavat toimia virheellisesti ja normaalia herkemmin. Seurauksena on vääristynyt stressivaste, joka voi vaikuttaa haitallisesti moniin aivojen ja kehon järjestelmiin. DNRS:n intensiivisten harjoitteiden avulla limbinen järjestelmä muokkautuu, jolloin hermoverkkoihin syntyyy aiempaa toimivampia yhteyksiä ja kroonistunut virheellinen stressivaste palautuu normaaliksi. Tämän seurauksena oireiden on mahdollista alkaa heikentyä ja hävitä.
 						</p><p>	DNRS ei ole hoito tai terapia vaan harjoitteluohjelma. Se ei korvaa millään tavoin lääkärin palveluja. Harjoittelua tulee tehdä vähintään tunti päivässä ainakin kuuden kuukauden ajan.
