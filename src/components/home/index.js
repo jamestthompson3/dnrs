@@ -44,10 +44,11 @@ const Quotebox = styled.div`
 	}
 `
 const Quip = styled.div`
-	width: 80%;
+	width: 65%;
 	margin:auto;
 	margin-top: 4rem;
 	font-size: 1rem;
+	line-height: 30px;
 	text-align: justify;
 	border-top: 1px solid gray;
 	border-bottom: 1px solid gray;
@@ -93,19 +94,18 @@ export default class Home extends Component {
 					</TaglineContainer>
 					<Quip>
 						
-						<p>Dynamic Neural Retraining System&trade; on lääkkeetön, aivojen muokkautuvuutta hyödyntävä harjoitusmenetelmä, jonka avulla voi olla mahdollista saada apua oireisiin ja toipua monista toiminnallisista häiriöistä ja sairauksista, joiden taustalla voidaan olettaa olevan aivojen limbisen järjestelmän virheellinen toiminta. Niitä ovat esimerkiksi monikemikaaliherkkyys, fibromyalgia, krooninen väsymysoireyhtymä, sähköherkkyys, ruokayliherkkyydet, sisäilmasairaudet ja krooninen kipu.
+						<p>Dynamic Neural Retraining System&trade; on lääkkeetön, aivojen muokkautuvuutta hyödyntävä harjoitusmenetelmä, jonka avulla voi olla mahdollista saada apua oireisiin ja toipua monista toiminnallisista häiriöistä ja sairauksista, joiden taustalla oletetaan olevan aivojen limbisen järjestelmän virheellinen toiminta. Niitä ovat esimerkiksi monikemikaaliherkkyys, fibromyalgia, krooninen väsymysoireyhtymä, sähköherkkyys, ruokayliherkkyydet, sisäilmasairaudet ja krooninen kipu.
 						</p>
 						
-						<LinkBox style={{width:'100%'}} onClick={this.Redirect}>
-							<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none',color:'white'}}>TILAA</a></h1>
-						</LinkBox>
+					
+
 
 						<p><span><b>Perustietoa DNRS:stä</b></span><br/>
-							Monet eri tekijät, kuten esimerkiksi virukset, fyysiset vammat, emotionaalinen stressi tai altistuminen
+							
 							Monet eri tekijät, kuten esimerkiksi virukset, fyysiset vammat, emotionaalinen stressi tai altistuminen homeelle tai kemikaaleille voivat aiheuttaa aivojen limbisen järjestelmän häiriötilan. Tuolloin limbisen järjestelmän suojelumekanismit alkavat toimia virheellisesti ja normaalia herkemmin. Seurauksena on vääristynyt stressivaste, joka voi vaikuttaa haitallisesti moniin aivojen ja kehon järjestelmiin. DNRS:n intensiivisten harjoitteiden avulla limbinen järjestelmä muokkautuu, jolloin hermoverkkoihin syntyyy aiempaa toimivampia yhteyksiä ja kroonistunut virheellinen stressivaste palautuu normaaliksi. Tämän seurauksena oireiden on mahdollista alkaa heikentyä ja hävitä.
 						</p><p>	DNRS ei ole hoito tai terapia vaan harjoitteluohjelma. Se ei korvaa millään tavoin lääkärin palveluja. Harjoittelua tulee tehdä vähintään tunti päivässä ainakin kuuden kuukauden ajan.
 							</p><p>Tällä hetkellä DNRS:ää tutkitaan kahdessa eri yliopistossa Kanadassa. Mc Master Universityn havaintotutkimuksessa on mukana 100 henkilöä, jotka ovat käyneet DNRS-kurssin. Tutkimuksessa selvitetään DNRS-harjoittelun vaikutusta 21 krooniseen oireyhtymään ja sairauteen. Calgaryn yliopistossa tutkitaan aivokuvannuksen avulla harjoittelun vaikutusta monikemikaaliherkkyyteen, krooniseen väsymysoireyhtymään, fibromyalgiaan ja POTS:iin.
-						</p><p>DDNRS-menetelmän on kehittänyt kanadalainen Annie Hopper, joka on itse kärsinyt vakavasta monikemikaaliherkkyydestä, fibromyalgiasta ja sähköherkkyydestä. Hän on toipunut niistä täysin ja on vuodesta 2008 lähtien auttanut muita sairastuneita eri puolilla maailmaa pitämillään kursseilla ja laatimansa DVD-opetusmateriaalin avulla. Hän on luennoinut menetelmästä esimerkiksi Amerikan ympäristölääketieteen akatemian konferenssissa (The Academy of Environmental Medicine) ja Funktionaalisen lääketieteen instituutin konferenssissa (The Institute of Functional Medicine). 
+						</p><p>DNRS-menetelmän on kehittänyt kanadalainen Annie Hopper, joka on itse kärsinyt vakavasta monikemikaaliherkkyydestä, fibromyalgiasta ja sähköherkkyydestä. Hän on toipunut niistä täysin ja on vuodesta 2008 lähtien auttanut muita sairastuneita eri puolilla maailmaa pitämillään kursseilla ja laatimansa DVD-opetusmateriaalin avulla. Hän on luennoinut menetelmästä esimerkiksi Amerikan ympäristölääketieteen akatemian konferenssissa (The Academy of Environmental Medicine) ja Funktionaalisen lääketieteen instituutin konferenssissa (The Institute of Functional Medicine). 
 						</p><p>	DNRS- menetelmän mukaan erilaiset ympäristötekijät saattavat olla vaikuttamassa limbisen järjestelmän häiriötilan syntyyn. Tämän vuoksi terveyttä ja hyvinvointia ylläpitävän ja edistävän elin- ja toimintaympäristön takaaminen on aina ensiarvoisen tärkeää.
 							
 							</p>
@@ -125,3 +125,8 @@ export default class Home extends Component {
 			)
 	}
 }
+
+	<LinkBox style={{width:'100%'}} onClick={this.Redirect}>
+							<h1><a href="https://retrainingthebrain.com/" style={{textDecoration:'none',color:'white'}}>TILAA</a></h1>
+						</LinkBox>
+						
